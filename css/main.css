@@ -1,14 +1,14 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #001440
+    background-color: var(--background-color, #001440)
 }
 nav ul, footer ul {
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #ffaa76
+    color: var(--accent-color, #b666d2);
 }
 nav ul li, footer ul li {
     display: inline;
@@ -16,7 +16,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #b666d2;
+    color: var(--accent-color, #b666d2);
 }
 a:hover {
     text-decoration: underline;
@@ -24,23 +24,26 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
-    color: #ff5a36
+    color: var(--main-color, #ff5a36);
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #9fe2bf;
+    color: var(--secondary-color, #9fe2bf);
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid ;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+select {
+  position: relative;
+  font-family: 'Tahoma', 'Geneva', 'Sans-Serif';
+  background-color: var(--accent-color, #b666d2);
+
 }
 
-ul.posts li {
-    list-style: none;
+option {
+    color: var(--main-color, #ff5a36);
 }
+
