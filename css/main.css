@@ -11,32 +11,42 @@ nav ul, footer ul {
     color: var(--accent-color, #b666d2);
 }
 nav ul li, footer ul li {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
 }
 
 ul {
+  font-family:'Tahoma', 'Geneva', 'Sans-Serif';
   list-style-type: none;
   color: var(--accent-color, #b666d2);
 }
 a {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: var(--accent-color, #b666d2);
 }
 a:hover {
     text-decoration: underline;
 }
-h1, h2 {
+h1 {
     font-size: 3em;
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    color: var(--main-color, #ff5a36);
+}
+h2 {
+    font-size: 2em;
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: var(--main-color, #ff5a36);
 }
 
 p {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: var(--secondary-color, #9fe2bf);
 }
 footer {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     border-top: 1px solid ;
     font-size: .8em;
 }
