@@ -14,18 +14,23 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+ul {
+  list-style-type: none;
+  color: var(--accent-color, #b666d2);
+}
 a {
-    text-decoration: none;
     color: var(--accent-color, #b666d2);
 }
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h1, h2 {
     font-size: 3em;
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: var(--main-color, #ff5a36);
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -46,4 +51,3 @@ select {
 option {
     color: var(--main-color, #ff5a36);
 }
-

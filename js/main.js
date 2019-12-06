@@ -18,9 +18,11 @@ function changeTheme(theme_code){
             accent_color = "#fd5b78"
             break;
         // code block
-    } 
+    }
     document.querySelector('body').style.setProperty('--background-color', bg_color)
     document.querySelector('h1').style.setProperty('--main-color', main_color)
+    document.querySelector('h2').style.setProperty('--main-color', main_color)
+    document.querySelector('ul').style.setProperty('--main-color', accent_color)
     document.querySelector('p').style.setProperty('--secondary-color', secondary_color)
     document.querySelector('a').style.setProperty('--accent-color', accent_color)
     document.querySelector('footer').style.setProperty('--accent-color', accent_color)
