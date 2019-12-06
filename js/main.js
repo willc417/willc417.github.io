@@ -17,6 +17,14 @@ function changeTheme(theme_code){
             secondary_color = "#9abf59"
             accent_color = "#fd5b78"
             break;
+        case 2:
+            bg_color = "#c3e4e8"
+            main_color = "#010203"
+            secondary_color = "#8fd2ff"
+            accent_color = "#e3e5e4"
+            break;
+
+
         // code block
     }
     document.querySelector('body').style.setProperty('--background-color', bg_color)
