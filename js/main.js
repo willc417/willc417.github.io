@@ -18,10 +18,10 @@ function changeTheme(theme_code){
             accent_color = "#fd5b78"
             break;
         case 2:
-            bg_color = "#c3e4e8"
+            bg_color = "#8fd2ff"
             main_color = "#010203"
-            secondary_color = "#8fd2ff"
-            accent_color = "#e3e5e4"
+            secondary_color = "#e3e5e4"
+            accent_color = "#6fa1d2"
             break;
 
 
@@ -30,7 +30,8 @@ function changeTheme(theme_code){
     document.querySelector('body').style.setProperty('--background-color', bg_color)
     document.querySelector('h1').style.setProperty('--main-color', main_color)
     document.querySelector('h2').style.setProperty('--main-color', main_color)
-    document.querySelector('ul').style.setProperty('--main-color', accent_color)
+    document.querySelector('ul').style.setProperty('--accent-color', accent_color)
+    document.querySelector('li').style.setProperty('--accent-color', accent_color)
     document.querySelector('p').style.setProperty('--secondary-color', secondary_color)
     document.querySelector('a').style.setProperty('--accent-color', accent_color)
     document.querySelector('footer').style.setProperty('--accent-color', accent_color)

@@ -16,7 +16,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-ul {
+ul, li {
   font-family:'Tahoma', 'Geneva', 'Sans-Serif';
   list-style-type: none;
   color: var(--accent-color, #b666d2);
