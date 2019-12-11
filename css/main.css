@@ -17,12 +17,12 @@ nav ul li, footer ul li {
     color: var(--accent-color, #b666d2);
 }
 
-ul, li {
+.jobs {
   font-family:'Tahoma', 'Geneva', 'Sans-Serif';
   list-style-type: none;
   color: var(--accent-color, #b666d2);
 }
-a {
+a, b {
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: var(--accent-color, #b666d2);
 }
