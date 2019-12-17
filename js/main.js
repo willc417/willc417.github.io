@@ -20,24 +20,38 @@ function changeTheme(theme_code){
         case 2:
             bg_color = "#8fd2ff"
             main_color = "#010203"
-            secondary_color = "#e3e5e4"
-            accent_color = "#6fa1d2"
+            secondary_color = "#6fa1d2"
+            accent_color = "#e3e5e4"
             break;
-
 
         // code block
     }
     document.querySelector('body').style.setProperty('--background-color', bg_color)
     document.querySelector('h1').style.setProperty('--main-color', main_color)
-    document.querySelector('h2').style.setProperty('--main-color', main_color)
-    document.querySelector('ul').style.setProperty('--accent-color', accent_color)
-    document.querySelector('li').style.setProperty('--accent-color', accent_color)
-    document.querySelector('p').style.setProperty('--secondary-color', secondary_color)
-    document.querySelector('a').style.setProperty('--accent-color', accent_color)
-    document.querySelector('footer').style.setProperty('--accent-color', accent_color)
-    document.querySelector('nav').style.setProperty('--accent-color', accent_color)
+    var headings2 = document.querySelectorAll('h2')
+    headings2.forEach(function(heading) {
+      heading.style.setProperty('--main-color', main_color)
+    });
+    lists = document.querySelectorAll('ul')
+    lists.forEach(function(list) {
+      list.style.setProperty('--accent-color', accent_color)
+    });
+    listItems = document.querySelectorAll('li')
+    listItems.forEach(function(listItem) {
+      listItem.style.setProperty('--accent-color', accent_color)
+    });
+    ps = document.querySelectorAll('p')
+    ps.forEach(function(p) {
+      p.style.setProperty('--secondary-color', secondary_color)
+    });
+    document.querySelectorAll('a').style.setProperty('--accent-color', accent_color)
+    as = document.querySelectorAll('a')
+    as.forEach(function(a) {
+      a.style.setProperty('--accent-color', accent_color)
+    });
+    //document.querySelectorAll('footer').style.setProperty('--accent-color', accent_color)
+    //document.querySelectorAll('nav').style.setProperty('--accent-color', accent_color)
     document.querySelector('select').style.setProperty('--background-color', accent_color)
     document.querySelector('option').style.setProperty('--main-color', main_color)
-
 
 }

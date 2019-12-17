@@ -10,18 +10,20 @@ nav ul, footer ul {
     font-weight: bold;
     color: var(--accent-color, #b666d2);
 }
-nav ul li, footer ul li {
+li {
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
-    display: inline;
+    display: block;
     margin-right: 20px;
     color: var(--accent-color, #b666d2);
 }
 
-.jobs {
-  font-family:'Tahoma', 'Geneva', 'Sans-Serif';
-  list-style-type: none;
-  color: var(--accent-color, #b666d2);
+.footerList {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    display: flex;
+    margin-right: 20px;
+    color: var(--accent-color, #b666d2);
 }
+
 a, b {
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: var(--accent-color, #b666d2);
