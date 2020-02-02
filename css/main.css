@@ -27,24 +27,36 @@ li {
 a, b {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
     color: var(--accent-color, #b666d2);
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
+.companyName {
+  font-family:'Verdana', 'Geneva', 'Sans-Serif';
+  font-size: 1.5em;
+  text-shadow: 2px 2px #b666d2, 0 0 0.4em #ff5a36;
+  color: var(--accent-color, #9fe2bf);
+}
+
+
 h1 {
     font-size: 3em;
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
+    text-shadow: 2px 2px #b666d2, 0 0 0.2em #9fe2bf;
     color: var(--main-color, #ff5a36);
 }
 h2 {
     font-size: 2em;
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
+    text-shadow: 2px 2px #b666d2, 0 0 0.2em #9fe2bf;
     color: var(--main-color, #ff5a36);
 }
 
 p {
     font-family:'Verdana', 'Geneva', 'Sans-Serif';
     font-size: 1.5em;
+    text-shadow: 2px 2px #b666d2, 0 0 0.4em #ff5a36;
     line-height: 1.4em;
     color: var(--secondary-color, #9fe2bf);
 }
